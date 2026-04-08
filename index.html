@@ -107,19 +107,26 @@
                     <br>
                 <input id="x" type="checkbox" name="social" value="x">
                 <label for="x">X</label>
-                <br>
-                <label for="musicStyle">Estilo musical:</label>
-                <input list="styleTypes" id="musicStyle" name="userMusicStyle" type="text">
-                <datalist id="styleTypes">
-                    <option value="rock">
-                    <option value="rap">
-                    <option value="pop">
-                    <option value="samba">
-                </datalist>
-                    <br>
-                <label for="favoriteColor">Cor favorita</label>
-                <input type="color" name="userFavoriteColor" id="favoriteColor">
             </fieldset>
+            <fieldset>
+                <legend>Opinião</legend>
+                <p>O que você acha do nosso serviço</p>
+                <input id="great" type="radio" name="userOpnion" value="great">
+                <label for="great">Ótimo</label>
+                
+                <input id="good" type="radio" name="userOpnion" value="good">
+                <label for="good">Bom</label>
+                
+                <input id="regular" type="radio" name="userOpnion" value="regular">
+                <label for="regular">Regular</label>
+                
+                <input id="bad" type="radio" name="userOpnion" value="bad">
+                <label for="bad"><Ri:a>Ruim</Ri:a></label>
+                    <br>
+                <label for="comment">Deixe sua opinião</label><br>
+                <textarea name="userComment" id="comment" placeholder="Digite sua opinião..."></textarea>
+            </fieldset>
+
                 <br>
             <button type="submit">Enviar</button>
     
