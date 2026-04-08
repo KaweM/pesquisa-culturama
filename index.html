@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,7 +34,7 @@
 
             </fieldset>
             <fieldset> 
-                <legend>Gênero:</legend>
+                <legend>Perfil:</legend>
                 <p>Gênero:</p>
 
                 <input id="fem" type="radio" name="userGender" value="Feminino">
@@ -120,8 +120,29 @@
                 <label for="favoriteColor">Cor favorita</label>
                 <input type="color" name="userFavoriteColor" id="favoriteColor">
             </fieldset>
+            <fieldset>
+                <legend>Opinião</legend>
+                <p>O que você acha do nosso serviço</p>
+                <input id="great" type="radio" name="userOpinion" value="great">
+                <label for="great">Ótimo</label>
+                
+                <input id="good" type="radio" name="userOpinion" value="good">
+                <label for="good">Bom</label>
+                
+                <input id="regular" type="radio" name="userOpinion" value="regular">
+                <label for="regular">Regular</label>
+                
+                <input id="bad" type="radio" name="userOpinion" value="bad">
+                <label for="bad">Ruim</label>
+                    <br>
+                <label for="comment">Deixe sua opinião</label><br>
+                <textarea name="userComment" id="comment" placeholder="Digite sua opinião..."></textarea>
+            </fieldset>
+
                 <br>
             <button type="submit">Enviar</button>
-    
+
+        </form>
+    </section>
 </body>
 </html>
