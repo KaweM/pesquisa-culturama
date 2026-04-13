@@ -10,6 +10,12 @@ https://kawem.github.io/pesquisa-culturama/
 
 ---
 
+## 🖥️ Preview
+
+![preview](./img/preview.png)
+
+---
+
 ## 📌 Sobre
 
 O projeto permite que o usuário envie sua opinião por meio de um formulário e, após o envio, seja redirecionado para uma página de confirmação.
