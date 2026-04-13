@@ -4,6 +4,12 @@ Projeto desenvolvido durante meus estudos para praticar HTML e CSS, com foco na 
 
 ---
 
+## 🌐 Acesse o projeto
+
+https://kawem.github.io/pesquisa-culturama/
+
+---
+
 ## 📌 Sobre
 
 O projeto permite que o usuário envie sua opinião por meio de um formulário e, após o envio, seja redirecionado para uma página de confirmação.
